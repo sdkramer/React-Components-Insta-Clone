@@ -9,6 +9,7 @@ const CommentSection = props => {
 
   return (
     <div>
+      {/* <Comment /> */}
       {/* map through the comments data and return the Comment component */}
       <CommentInput />
     </div>
