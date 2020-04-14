@@ -9,7 +9,7 @@ import dummyData from "../../dummy-data"
 const PostsPage = () => {
   // set up state for your data
 const [posts, setPosts] = useState(dummyData)
-console.log(posts.map(item => item.username))
+// console.log(posts[0].comments)
 
   return (
     <div className="posts-container-wrapper">
